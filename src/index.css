@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    margin : 20px 20px 20px 20px;
+    padding-top: 0px;
+    transition: scale 0.32s ease-in-out;
+    overflow-x: hidden;
+    
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    margin : 20px 20px 20px 20px;
+    border: 1px solid gray ;
+}
+
+.product{
+    width: 300px ;
+    margin-top: 0px ;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: larger;
+    color: darkblue;
+    overflow-x: hidden;
+}
+
+.card img{
+    width: 300px;
+    height: 270px;
+    margin-bottom: 0px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.price{
+    color: coral ;
+    background-color: blanchedalmond;
+    width: 300px;
+    margin : -20px 20px 20px 20px;
+    padding-top: 10px;
+    height: 30px;
+    border: 1px solid gray ;
+    border-top: 0px;
+    text-align: center;
+}
+
+.cardComp{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    min-width: 300px;
+}
+
+.container:hover{
+    cursor: pointer;
+    scale: 1.05;
+    border:1px solid coral;
+}
+
+
+
